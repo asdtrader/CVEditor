@@ -1,7 +1,35 @@
-[
-  {
-    "doc_title":"Julius CV",
-    "some":"Some CV",
-    "another":"Another CV"
-  }
-]
+{
+    "jm_doc_title":"Julius CV",
+    "jm_user_mail": "some@mail.com",
+    "jm_user_phone": "0896123456",
+    "jm_user_in" : "linkedin.com/name",
+    "jm_user_github" : "github.com/name",
+    "jm_user_twitter" : "twitter.com/name",
+    "jm_user_website" : "http://somesite.com",
+    "jm_user_website_vs" : "somesite.com",
+    "jm_username": "Julius Metodiev",
+    "jm_user_title": "Sr. Software Engineer",
+    "jm_interests":[
+      "Guitar","Piano","Photography"
+    ],
+    "jm_educations" : [
+      {"time": "2011 - 2012", "degree":"MSc in Computer Science", "uni_name":"University of London"},
+      {"time": "2007 - 2011", "degree":"BSc in Applied Mathematics", "uni_name":"Bristol University"}
+    ],
+    "jm_languages" : [
+      {"lang" : "Bulgarian", "level" : "(Native)"},
+      {"lang" : "English", "level" : "(Professional)"}
+    ],
+    "jm_career_profile_summary" : "Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.",
+    "jm_experiences" :[
+      {"job_title":"Lead Developer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."},
+      {"job_title":"Senior Software Engineer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."},
+      {"job_title":"UI Developer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."}
+    ],
+    "jm_skills" :[{"lang":"Java","prs":80},{"lang":"C/C++", "prs":70}],
+    "jm_project_intro" : "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.",
+    "jm_projects" :[
+      {"desc":" - A responsive website template designed to help startups promote, market and sell their products.", "name":"Velocity"},
+      {"desc":" - A responsive website template designed to help web developers/designers market their services.", "name":"DevStudio"}
+    ]
+}
