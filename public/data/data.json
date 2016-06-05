@@ -13,20 +13,21 @@
       "Guitar","Piano","Photography"
     ],
     "jm_educations" : [
-      {"time": "2011 - 2012", "degree":"MSc in Computer Science", "uni_name":"University of London"},
-      {"time": "2007 - 2011", "degree":"BSc in Applied Mathematics", "uni_name":"Bristol University"}
+      {"time": "2014 – 2018", "degree":"Bachelor's degree, Computer Science", "uni_name":"New Bulgarian University"},
+      {"time": "1995 - 1998", "degree":"Technician, Information Technology", "uni_name":"Technical School A. S. Popov"}
     ],
     "jm_languages" : [
       {"lang" : "Bulgarian", "level" : "(Native)"},
       {"lang" : "English", "level" : "(Professional)"}
     ],
-    "jm_career_profile_summary" : "Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.",
+    "jm_career_profile_summary" : "Highly ambitious software engineer with more than 15 years of technical and managerial skills. A big experience with software design, implementation, QA, project management. Worked with technologies in the field of: automotive, industrial automation, social networking, distributed systems, mobile application, databases, and other. Working with different programming languages and software architectures. Person with sense of humour, communication skills and good team player.",
     "jm_experiences" :[
-      {"job_title":"Lead Developer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."},
-      {"job_title":"Senior Software Engineer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."},
-      {"job_title":"UI Developer", "job_time":"2012 - 2014", "company_location":"Amazon, London", "details" :"Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."}
+      {"job_title":"Senior Software Engineer", "job_time":"2011 - 2015", "company_location":"OpenNet Software", "details" :"Design and build cross platform UI library for mobile devices using C++, Boost, QT. Design and build RDP client using QT. Design and build distributed server for a big social platform for traders using NodeJS, C++ and Python. Design and build NoSQL and relational databases."},
+      {"job_title":"Software Engineer", "job_time":"2006 - 2010", "company_location":"ProSyst - Bosch Group", "details" :"System programming for linux based systems using C and C++. Build parts for a mobile browser using QT. Build a system environment using several toolchains. Software Consultant between Johnson Controls and ProSyst validation team."},
+      {"job_title":"Software Developer", "job_time":"2005 - 2006", "company_location":"Biotronica LTD", "details" :"Build parts for a big ERP system using QT and PostreSQL. System programming using C++."},
+      {"job_title":"Software Developer", "job_time":"2004 - 2005", "company_location":"Bonako LTD", "details" :"Create people management system for chain of casinos using QT."}
     ],
-    "jm_skills" :[{"lang":"Java","prs":80},{"lang":"C/C++", "prs":70}],
+    "jm_skills" :[{"lang":"C/C++", "prs":80}, {"lang":"Python","prs":70}, {"lang":"Java","prs":60}],
     "jm_project_intro" : "You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.",
     "jm_projects" :[
       {"desc":" - A responsive website template designed to help startups promote, market and sell their products.", "name":"Velocity"},
