@@ -1,0 +1,97 @@
+extends layout
+
+block content
+    div(class="container center_div cl-container")
+      div(class="panel panel-primary")
+        div(class="panel-heading") Edit CV
+        div(class="panel-body")
+          form
+            div(class="form-group")
+                label(for="inputDocTitle") Doc Title
+                input(type="text" class="form-control" id="inputDocTitle" placeholder="Doc Title" value="#{title}")
+            div(class="form-group")
+                label(for="inputEmail") E-Mail
+                input(type="text" class="form-control" id="inputEmail" placeholder="Mail" value="#{jm_user_mail}")
+            div(class="form-group")
+                label(for="inputPhone") Phone
+                input(type="text" class="form-control" id="inputPhone" placeholder="Phone" value="#{jm_user_phone}")
+            div(class="form-group")
+                label(for="inputLinkedIn") LinkedIn
+                input(type="text" class="form-control" id="inputLinkedIn" placeholder="LinkedIn" value="#{jm_user_in}")
+            div(class="form-group")
+                label(for="inputGitHub") GitHub
+                input(type="text" class="form-control" id="inputGitHub" placeholder="GitHub" value="#{jm_user_github}")
+            div(class="form-group")
+                label(for="inputTwitter") Twitter
+                input(type="text" class="form-control" id="inputTwitter" placeholder="Twitter" value="#{jm_user_twitter}")
+            div(class="form-group")
+                label(for="inputPhone") Website
+                input(type="text" class="form-control" id="inputWebsite" placeholder="Website" value="#{jm_user_website}")
+            div(class="form-group")
+                label(for="inputWebsiteTitle") Website Title
+                input(type="text" class="form-control" id="inputWebsiteTitle" placeholder="Website Title" value="#{jm_user_website_vs}")
+
+            div(class="form-group")
+                label(for="inputUsername") Username
+                input(type="text" class="form-control" id="inputUsername" placeholder="Username" value="#{jm_username}")
+            div(class="form-group")
+                label(for="inputUserTitle") User Title
+                input(type="text" class="form-control" id="inputUserTitle" placeholder="User Title" value="#{jm_user_title}")
+
+            div(class="form-group")
+                label(for="inputInterests") Interests
+                input(type="text" class="form-control" id="inputInterests" placeholder="Interests" value="#{jm_interests}")
+
+
+            div(class="form-group")
+                label(for="tableEducation") Education
+                table(data-url="http://0.0.0.0:3000/json?val=educations" data-toggle="table" dataType="json" id="inputEducation")
+                  thead
+                    tr
+                      th(data-field="uni_name") University Name
+                      th(data-field="degree") University Degree
+                      th(data-field="time") Time
+
+            div(class="form-group")
+                label(for="tableLanguages") Languages
+                table(data-url="http://0.0.0.0:3000/json?val=languages" data-toggle="table" dataType="json" id="tableLanguages")
+                  thead
+                    tr
+                      th(data-field="lang") Language
+                      th(data-field="level") Level
+
+            div(class="form-group")
+                label(for="inputCareerProfileSummary") Career Profile Summary
+                textarea(type="text" class="form-control" id="inputCareerProfileSummary" placeholder="Career Profile Summary") #{jm_career_profile_summary}
+
+            div(class="form-group")
+                label(for="tableExperiences") Experiences
+                table(data-url="http://0.0.0.0:3000/json?val=experiences" data-toggle="table" dataType="json" id="tableExperiences")
+                  thead
+                    tr
+                      th(data-field="job_title") Title
+                      th(data-field="job_time") Time
+                      th(data-field="company_location") Company Location
+                      th(data-field="details") Details
+
+            div(class="form-group")
+                label(for="tableSkills") Skills
+                table(data-url="http://0.0.0.0:3000/json?val=skills" data-toggle="table" dataType="json" id="tableSkills")
+                  thead
+                    tr
+                      th(data-field="lang") Language
+                      th(data-field="prs") Percent
+
+            div(class="form-group")
+                label(for="inputProjectIntro") Project Intro
+                textarea(type="text" class="form-control" id="inputProjectIntro" placeholder="Project Intro") #{jm_project_intro}
+
+            div(class="form-group")
+                label(for="tableProjects") Projects
+                table(data-url="http://0.0.0.0:3000/json?val=projects" data-toggle="table" dataType="json" id="tableProjects")
+                  thead
+                    tr
+                      th(data-field="name") Name
+                      th(data-field="desc") Description
+
+              button(type="submit" class="btn btn-primary") Save
